@@ -12,5 +12,6 @@ async def on_ready():
     print("---------------------")
     print(f"User:{bot.user}")
     print(f"Login Time:{datetime.datetime.now()}")
+    print("---------------------")
 
 bot.run(config["token"])
