@@ -12,7 +12,7 @@ class helpcommand(commands.DefaultHelpCommand):
     def get_ending_note(self):
         return ("Github:https://github.com/iemike3/jinroubot")
 
-bot = commands.Bot(command_prefix="j_",help_command=helpcommand())
+bot = commands.Bot(command_prefix="j.",help_command=helpcommand())
 
 with open("config.json","r") as f:
     config = json.load(f)
